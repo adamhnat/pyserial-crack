@@ -1,8 +1,11 @@
 # pyserial-crack
-python serial port password cracker
+python serial port password cracker - build for ZTE H298Q
 
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+### Build instructions
 
-python main.py
+```
+$ python -m venv .venv 
+$ source .venv/bin/activate
+$ pip install -r requirements.txt
+$ python src/main.py --help
+```
