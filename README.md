@@ -1,2 +1,8 @@
 # pyserial-crack
-python serial port password cracer
+python serial port password cracker
+
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+python main.py
